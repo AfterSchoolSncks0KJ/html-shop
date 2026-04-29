@@ -1,0 +1,73 @@
+{
+  "currency": "€",
+  "products": [
+    {
+      "id": "Aura C2",
+      "name": "Aura C2",
+      "priceFrom": 25,
+      "category": "Botnet",
+      "rating": 4.8,
+      "badge": "BASIC",
+      "symbol": "C2",
+      "accent": "#ff38f5",
+      "description": "Aura C2 – Professional IP & URL Stresser, secure access via SSH",
+      "variants": [
+        {
+          "id": "Basic-1",
+          "name": "30 Day Access",
+          "price": 25,
+          "description": "Plan #1 - Max Concurrent Tests: 1 💪 - Max Testing Time: 60 seconds 🕑 - Price: 25€ P/M 💵 Access to basic methods only!",
+          "redirectUrl": "checkout.html?product=Aura-C2&variant=basic-1"
+        },
+        {
+          "id": "Basic-2",
+          "name": "30 Day Access",
+          "price": "45",
+          "description": "Plan #2 - Max Concurrent Tests: 2 💪 - Max Testing Time: 120 seconds 🕑 - Price: 45€ P/M 💵 Access to basic methods only!",
+          "redirectUrl": "checkout.html?product=Aura-C2&variant=basic-2"
+        },
+        {
+          "id": "Basic-3",
+          "name": "30 Day Access",
+          "price": 65,
+          "description": "Plan #3 - Max Concurrent Tests: 3 💪 - Max Testing Time: 180 seconds 🕑 - Price: 65€ P/M 💵 Access to basic methods only!",
+          "redirectUrl": "checkout.html?product=Aura-C2&variant=basic-3"
+        },
+        {
+          "id": "Basic-4",
+          "name": "30 Day Access",
+          "price": 85,
+          "description": "Plan #4 - Max Concurrent Tests: 4 💪 - Max Testing Time: 240 seconds 🕑 - Price: 85€ P/M 💵 Access to basic methods only!",
+          "redirectUrl": "checkout.html?product=Aura-C2&variant=basic-4"
+        },
+        {
+          "id": "Basic-5",
+          "name": "30 Day Access",
+          "price": 105,
+          "description": "Plan #5 - Max Concurrent Tests: 5💪 - Max Testing Time: 300 seconds🕑 - Price: 105€ P/M 💵 Access to basic methods only!",
+          "redirectUrl": "checkout.html?product=Aura-C2&variant=basic-5"
+        }
+      ]
+    },
+    {
+      "id": "Aura Raw Botnet",
+      "name": "Aura Botnet",
+      "priceFrom": 80,
+      "category": "Botnet",
+      "rating": 4.9,
+      "badge": "PRO",
+      "symbol": "Botnet",
+      "accent": "#9b45ff",
+      "description": "Stärkeres Proxy-Paket für aktive Nutzer mit höherem Volumen.",
+      "variants": [
+        {
+          "id": "Plan #1",
+          "name": "30 Days",
+          "price": 80,
+          "description": "Max Concurrent Tests: 1 💪 - Max Testing Time: 120 seconds 🕑 - Price: 80€ P/M 💵",
+          "redirectUrl": "checkout.html?product=Aura-Raw-Botnet&variant=pro-30-days"
+        }
+      ]
+    }
+  ]
+}

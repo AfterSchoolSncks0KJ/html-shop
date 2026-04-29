@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produkt | Auraservies Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="background.js" defer></script>
+  <script src="product.js" defer></script>
+</head>
+<body>
+  <canvas id="spaceCanvas" aria-hidden="true"></canvas>
+
+  <main class="page detail-page">
+    <header class="site-header compact-header">
+      <a class="brand" href="index.html" aria-label="Zurück zum Shop">
+        <div class="brand-logo">AURA</div>
+        <span>Auraservies Shop</span>
+      </a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Shop</a>
+        <a href="index.html#tosnote">Terms of Service</a>
+      </nav>
+
+      <a class="cart-pill" href="/">Back</a>
+    </header>
+
+    <section class="detail-panel" id="productDetail">
+      <div class="panel-noise"></div>
+      <div class="loading-box">Loading...</div>
+    </section>
+  </main>
+</body>
+</html>

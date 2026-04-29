@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auraservies Shop</title>
+  <link rel="icon" href="/img/Aura.ico" type="image/gif">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="background.js" defer></script>
+  <script src="app.js" defer></script>
+  <meta name="description" content="Shop high quality Network Services">
+  <meta property="og:title" content="Auraservices Shop" />
+  <meta property="og:description" content="Shop high quality Network Services" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shop.auranetwork.cc" />
+  <meta property="og:image" content="/img/aura.gif" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Auraservices Shop" />
+  <meta name="theme-color" content="#ff38f5;" />
+  <meta name="twitter:card" content="/img/aura.gif" />
+
+</head>
+<body>
+  <canvas id="spaceCanvas" aria-hidden="true"></canvas>
+
+  <main class="page">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Auraservies Shop Startseite">
+        <div class="brand-logo" style="border-radius: 20px; overflow: hidden;">
+    <img src="/img/aura.gif" alt="Aura GIF" style="width: 100%; height: 100%; display: block;"></div>
+        <span id="shopName">Auraservies Shop</span>
+      </a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#products">Shop</a>
+        <a href="#about">Info</a>
+        <a href="#tosnote">Terms of Service</a>
+      </nav>
+
+      <a class="cart-pill" href="#products">Products</a>
+    </header>
+
+    <section class="hero-panel" id="about">
+      <div class="panel-noise"></div>
+
+      <div class="hero-brand-row">
+        <div class="aura-icon" style="border-radius: 20px; overflow: hidden;">
+    <img src="/img/aura.gif" alt="Aura GIF" style="width: 100%; height: 100%; display: block;"></div>
+        <span id="heroEyebrow">auranetworks</span>
+      </div>
+
+      <h1 id="heroTitle">Welcome to the Auraservices Shop</h1>
+
+      <p id="heroSubtitle">
+        Premium Network Services
+      </p>
+
+      <div class="hero-actions">
+        <a class="neon-button neon-button-primary" href="https://t.me/auranetworkservice" id="heroCta">Telegram Channel</a>
+        <a class="neon-button" href="https://discord.gg/auranetworks">Discord Server</a>
+      </div>
+
+      <div class="hero-footer">
+        <span>© 2026 Auraservies</span>
+        <span>Made by TomTheCat 🐈‍⬛</span>
+      </div>
+    </section>
+
+    <section class="shop-toolbar" aria-label="Shop Filter">
+      <div class="toolbar-field toolbar-search">
+        <input id="searchInput" type="search" placeholder="Search product..." />
+      </div>
+
+      <div class="toolbar-field">
+        <select id="categorySelect" aria-label="Kategorie auswählen"></select>
+      </div>
+
+      <div class="toolbar-field">
+        <select id="sortSelect" aria-label="Sortierung auswählen">
+          <option value="recommended">Recommended</option>
+          <option value="price-low">Price: low first</option>
+          <option value="price-high">Price: high first</option>
+          <option value="rating">Best rating</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading">
+        <div>
+          <span class="kicker">AURASERVIES CATALOG</span>
+          <h2>Shop Products</h2>
+        </div>
+        <p id="resultCount">0 Products found</p>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="tos-pannel" id="tosnote">
+      <span class="kicker">© 2026 Auraservices</span>
+      <h2>Terms of Service</h2>
+      <p>
+        By using our services, you agree to the following terms:
+      </p>
+
+      <pre><code>
+<strong>No Abuse</strong>
+-Any abuse against our admin team, impersonation, or using our name to scam others will result in an immediate and permanent ban. No warnings.
+
+<strong>No Refunds</strong>
+-All sales are final. End of service is end of service. When we leave, we leave. Do not expect reimbursements for any reason.
+
+<strong>We Are Here to Stay</strong>
+-We are not leaving anytime soon. However, if that day ever comes, refer to the above.
+
+<strong>No Snitching / Leaking</strong>
+-Leaking private info, methods, or internal details results in a permanent ban. No exceptions.
+
+<strong>One Account Per Person</strong>
+-No alts or duplicate accounts. Ban evasion will result in a permanent ban.
+
+<strong>No Sharing / Reselling</strong>
+-You may not share, redistribute, or resell access to others unless you are verified and approved to resell. Unauthorized reselling will result in a permanent ban.
+
+<strong>Right to Deny Service</strong>
+-Admins reserve the right to refuse or revoke service to anyone at any time for any reason.
+
+<strong>Responsibility</strong>
+-What you do with the service is your own responsibility. We are not liable for how you use it.
+
+<strong>Rule Changes</strong>
+-Terms can be updated at any time without notice. It is your responsibility to stay up to date.
+
+<strong>Downtime / SLA Policy</strong>
+-Services may experience downtime. Compensation for downtime is as follows:
+1 day down = 1 day added
+1 week down = 1 week added
+And so on
+This is the only form of compensation. No refunds will be given for downtime.
+</code></pre>
+    </section>
+  </main>
+</body>
+</html>
